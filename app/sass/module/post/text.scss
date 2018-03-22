@@ -1,0 +1,19 @@
+.single-post {
+  color: #999;
+
+  p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  &-text {
+    flex: 2;
+  h2 { 
+    margin-top: 0;
+    text-transform: uppercase;
+    line-height: 33px;
+    font-family: 'proxima_nova_altbold';
+    }
+  }
+  
+}

@@ -1,0 +1,17 @@
+.single-post {
+  &-meta {
+    flex: 1;
+    margin: 5px 25px 0;
+    .author { 
+      font-family: 'Quicksand';
+      color: $dark-color;
+      font-weight: bold;
+      font-size: 15px
+    }
+
+    .date {
+      font-size: 13px;
+      margin-top: 5px;
+    }
+  }  
+}

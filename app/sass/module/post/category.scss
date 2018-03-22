@@ -1,0 +1,26 @@
+.single-post {
+  .category {
+    ul {
+      @extend %flex;
+      list-style: none;
+      padding: 0;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    a {
+      display: block;
+      padding: 5px 10px;
+      font-size: 12px;
+      background-color: #faf9ff;
+      border: 1px solid #eeeeee;
+      font-family: 'proxima_nova_ltsemibold';
+      color: $dark-color;
+      position: relative;
+      transition: color 0.35s ease-out;
+      margin-bottom: 7px;
+      
+      @include hover-gradient();        
+    }
+  }
+}
