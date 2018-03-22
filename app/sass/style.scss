@@ -1,1 +1,16 @@
-@import "/sass/base/reset.scss";
+@import "./app/sass/variables.scss";
+@import "../fonts/fonts.css";
+
+/* Layout */
+@import "./app/sass/layout/header.scss";
+@import "./app/sass/layout/footer.scss";
+@import "./app/sass/layout/general.scss";
+@import "./app/sass/layout/slider.scss";
+@import "./app/sass/layout/main.scss";
+
+/* Base */
+@import "./app/sass/base/normalize.scss";
+
+/* Modules */
+@import "./app/sass/module/buttons.scss";
+@import "./app/sass/module/posts.scss";

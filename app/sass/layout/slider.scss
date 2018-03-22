@@ -1,0 +1,21 @@
+.slider {
+  @extend %gradient;
+  color: #fff;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+  }
+
+  h2, h3 {
+    color: #fff;
+  }
+
+  h2 {
+    font-size: 50px;
+    margin: 0;
+  }
+}

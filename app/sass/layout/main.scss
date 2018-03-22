@@ -1,0 +1,15 @@
+.principal {
+  margin: 110px 0;
+
+  .container {
+    display: flex;
+  }
+}
+
+.sidebar {
+    @extend %shadow;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 35px;
+}

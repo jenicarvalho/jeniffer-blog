@@ -1,0 +1,51 @@
+/* Variables */
+
+$primary-color: #f30f66;
+$dark-color: #222222;
+
+
+
+/* Mixins */
+
+@mixin hover-gradient($radius: 0) {
+  &:active,
+  &:hover {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+    &::before {
+      transform: scaleX(1);
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: $radius;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;       
+    @extend %gradient;   
+    transform: scaleX(0);
+    transform-origin: 0%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }  
+}
+
+/* Placeholder */
+
+%gradient {
+  background: #f41069;
+  background: -moz-linear-gradient(left, #f41069 1%, #f85944 35%, #fa8f2f 63%, #fcca11 100%);
+  background: -webkit-linear-gradient(left, #f41069 1%,#f85944 35%,#fa8f2f 63%,#fcca11 100%);
+  background: linear-gradient(to right, #f41069 1%,#f85944 35%,#fa8f2f 63%,#fcca11 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f41069', endColorstr='#fcca11',GradientType=1 );         
+}
+
+%shadow {
+  box-shadow: -19px 20px 50px 5px #f4f4f4;
+}
