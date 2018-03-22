@@ -1,6 +1,6 @@
 .single-post {
   .category {
-    ul {
+    &-list {
       @extend %flex;
       list-style: none;
       padding: 0;
@@ -8,13 +8,13 @@
       flex-wrap: wrap;
     }
 
-    a {
+    &-link {
       display: block;
       padding: 5px 10px;
       font-size: 12px;
       background-color: #faf9ff;
       border: 1px solid #eeeeee;
-      font-family: 'proxima_nova_ltsemibold';
+      font-family: $proxima-nova-semi-bold;
       color: $dark-color;
       position: relative;
       transition: color 0.35s ease-out;
