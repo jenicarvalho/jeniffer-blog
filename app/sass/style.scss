@@ -1,15 +1,17 @@
-@import "./app/sass/variables.scss";
+@import "./app/sass/helpers/variables.scss";
+@import "./app/sass/helpers/placeholders.scss";
+@import "./app/sass/helpers/mixins.scss";
 @import "../fonts/fonts.css";
 
 /* Layout */
 @import "./app/sass/layout/header.scss";
 @import "./app/sass/layout/footer.scss";
-@import "./app/sass/layout/general.scss";
 @import "./app/sass/layout/slider.scss";
 @import "./app/sass/layout/main.scss";
 
 /* Base */
 @import "./app/sass/base/normalize.scss";
+@import "./app/sass/base/general.scss";
 
 /* Modules */
 @import "./app/sass/module/buttons.scss";
