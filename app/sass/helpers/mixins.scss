@@ -1,0 +1,28 @@
+@mixin hover-gradient($radius: 0) {
+  &:active,
+  &:hover {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+    &::before {
+      transform: scaleX(1);
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: $radius;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;       
+    @extend %gradient;   
+    transform: scaleX(0);
+    transform-origin: 0%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }  
+}
