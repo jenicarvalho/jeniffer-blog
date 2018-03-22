@@ -2,14 +2,14 @@
   margin: 110px 0;
 
   .container {
-    display: flex;
+    @extend %flex;
   }
 }
 
 .sidebar {
     @extend %shadow;
     flex: 1;
-    display: flex;
+    @extend %flex;
     justify-content: flex-end;
     margin-left: 35px;
 }

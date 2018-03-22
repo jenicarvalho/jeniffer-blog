@@ -23,7 +23,7 @@
     }
 
     &-content {    
-      display: flex;
+      @extend %flex;
       padding: 40px;
       margin-bottom: 30px;
       @extend %shadow;
@@ -57,10 +57,11 @@
 
     .category {
       ul {
-        display: flex;
+        @extend %flex;
         list-style: none;
         padding: 0;
         justify-content: space-between;
+        flex-wrap: wrap;
       }
 
       a {
@@ -73,14 +74,15 @@
         color: $dark-color;
         position: relative;
         transition: color 0.35s ease-out;
-
+        margin-bottom: 7px;
+        
         @include hover-gradient();        
       }
     }
 
     .share {
       ul {
-        display: flex;
+        @extend %flex;
         list-style: none;
         padding-left: 0;
 

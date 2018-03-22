@@ -1,6 +1,6 @@
 .header {
   .container { 
-    display: flex;
+    @extend %flex;
     align-items: center;
     height: 80px;
    }
@@ -12,13 +12,12 @@
   &-navigation {
     flex: 1;
     &-principal {
-      display: flex;    
+      @extend %flex;   
       list-style: none;
       justify-content: space-around;
 
       a {
-        font-family: 'Quicksand', sans-serif;
-        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;        
         text-transform: uppercase;
         color: $dark-color;
         padding: 10px 15px;
