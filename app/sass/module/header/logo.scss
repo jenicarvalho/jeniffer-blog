@@ -1,0 +1,29 @@
+.header {
+  &-logo {
+    flex: 1;
+
+    svg {
+      width: 100px;
+
+      .path {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 100;
+        animation: dash 4s linear 2s infinite normal;
+        stroke: #f41766;
+      }
+
+      @keyframes dash {
+        0% {
+          stroke-dashoffset: 1000;    
+        }
+        50% {
+          stroke-dashoffset: 500;
+        }
+        100% {
+          stroke-dashoffset: 1000;
+        }
+      }
+      
+    }
+  }
+}

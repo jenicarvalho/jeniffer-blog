@@ -1,0 +1,23 @@
+.header {
+  &-navigation {
+    flex: 1;
+    &-principal {
+      @extend %flex;   
+      list-style: none;
+      justify-content: space-around;
+
+      a {
+        font-family: 'Quicksand', sans-serif;        
+        text-transform: uppercase;
+        color: $dark-color;
+        padding: 10px 15px;
+        transition: color 0.35s ease-out;
+        position: relative;    
+        font-weight: 600;
+        font-size: 13px;
+
+        @include hover-gradient(); 
+      }
+    }
+  }
+}
