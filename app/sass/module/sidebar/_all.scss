@@ -1,9 +1,3 @@
-.sidebar {
-    flex: 1;
-    margin-left: 35px;
-    flex-direction: column;
-
-    .box-default {
-       @extend %shadow;
-    }
-}
+/* search */
+@import "./app/sass/module/sidebar/box-default.scss";
+@import "./app/sass/module/sidebar/search.scss";
