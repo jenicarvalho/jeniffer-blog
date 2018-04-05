@@ -5,11 +5,3 @@
     @extend %flex;
   }
 }
-
-.sidebar {
-    @extend %shadow;
-    flex: 1;
-    @extend %flex;
-    justify-content: flex-end;
-    margin-left: 35px;
-}
