@@ -1,25 +1,25 @@
-@import "./app/sass/helpers/variables.scss";
-@import "./app/sass/helpers/placeholders.scss";
-@import "./app/sass/helpers/mixins.scss";
-@import "../fonts/fonts.css";
+@import "./helpers/variables.scss";
+@import "./helpers/placeholders.scss";
+@import "./helpers/mixins.scss";
+@import "./fonts/fonts.css";
 
 /* Layout */
-@import "./app/sass/layout/header.scss";
-@import "./app/sass/layout/footer.scss";
-@import "./app/sass/layout/slider.scss";
-@import "./app/sass/layout/main.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./layout/slider.scss";
+@import "./layout/main.scss";
 
 /* Base */
-@import "./app/sass/base/normalize.scss";
-@import "./app/sass/base/general.scss";
+@import "./base/normalize.scss";
+@import "./base/general.scss";
 
 /* Modules */
-@import "./app/sass/module/buttons.scss";
-@import "./app/sass/module/post/_all.scss";
+@import "./module/buttons.scss";
+@import "./module/post/_all.scss";
 
 /* header */
-@import "./app/sass/module/header/logo.scss";
-@import "./app/sass/module/header/navigation.scss";
+@import "./module/header/logo.scss";
+@import "./module/header/navigation.scss";
 
 /* sidebar */
-@import "./app/sass/module/sidebar/_all.scss";
+@import "./module/sidebar/_all.scss";
