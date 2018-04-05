@@ -1,0 +1,10 @@
+.sidebar {
+    flex: 1;
+    margin-left: 35px;
+    flex-direction: column;
+
+    .box-default {
+       @extend %shadow;
+       padding: 30px;
+    }
+}
