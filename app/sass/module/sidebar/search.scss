@@ -1,0 +1,26 @@
+.search-box {
+
+  .search-form { display: flex }
+
+  .search-input {
+    background-color: #faf9ff;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    width: 100%;
+    outline: none;
+    transition: box-shadow 0.5s ease;
+
+    &:focus {      
+      box-shadow: 1px 1px 0px 1px #eee;
+    }
+  }
+
+  .search-submit {
+    position: relative;
+    background: transparent;
+    left: -40px;
+    border: none;
+    transform: rotateY(180deg);
+  }
+
+}
