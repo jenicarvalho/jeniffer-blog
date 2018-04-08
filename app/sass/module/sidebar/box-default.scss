@@ -6,5 +6,11 @@
     .box-default {
        @extend %shadow;
        padding: 30px;
+       margin-bottom: 50px;
+    }
+
+    .title-sidebar {
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
 }
