@@ -2,13 +2,10 @@
   font-size: 15px;
   text-transform: uppercase;
   border-radius: 21px;
-  padding: 11px 47px;
   font-weight: 700;
   color: $dark-color;
-  box-shadow: 0 25px 40px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
-  &-gradient {
-  }
+
   &-ghost {
     background: #fff;
     &:hover { 
