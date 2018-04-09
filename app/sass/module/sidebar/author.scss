@@ -20,6 +20,7 @@
       position: relative;
       padding: 11px 20px;
       background-color: $gray-color;
+      overflow: hidden;
       i { padding-right: 15px }
       @include hover-gradient(20px);
 
