@@ -14,3 +14,19 @@
     }
   }
 }
+
+.btn-gradient {      
+  position: relative;
+  padding: 11px 20px;
+  background-color: $gray-color;
+  i { padding-right: 15px }
+  @extend %gradient;
+  color: #fff;
+
+  &:hover {
+    box-shadow: 0 35px 60px rgba(0,0,0,0.2);
+    &::before {
+      transform: scaleX(1);
+    }
+  }
+}
