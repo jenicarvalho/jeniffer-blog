@@ -6,9 +6,8 @@
   }
 
   .author-description {
-    color: #999;
-    font-size: 15px;
-    line-height: 23px;
+    @extend %text-comum;
+    @extend %montserrat;
   }
 
   .title-sidebar { letter-spacing: 1px }
@@ -17,9 +16,9 @@
     display: flex;
     margin-top: 30px;
 
-    .btn {
+    .btn-cv {
       position: relative;
-      padding: 11px 30px;
+      padding: 11px 20px;
       background-color: $gray-color;
       i { padding-right: 15px }
       @include hover-gradient(20px);
