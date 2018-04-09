@@ -1,17 +1,16 @@
-.single-post {
-  .share {
-    ul {
-      @extend %flex;
-      list-style: none;
-      padding-left: 0;
+.share,
+.social {
+  ul {
+    @extend %flex;
+    list-style: none;
+    padding-left: 0;
 
-      li { padding-right: 25px }
+    li { padding-right: 25px }
 
-      a { 
-        color: #ddd;
-        transition: color 0.3s ease-in-out;
-        &:hover { color: $dark-color }
-      }
+    a { 
+      color: #ddd;
+      transition: color 0.3s ease-in-out;
+      &:hover { color: $dark-color }
     }
   }
 }
