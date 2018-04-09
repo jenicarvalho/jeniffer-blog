@@ -1,7 +1,14 @@
 .header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 9999;
+  border-bottom: 1px solid #fafafa;
+
   .container { 
     @extend %flex;
     align-items: center;
     height: 80px;
    }
+   
 }
