@@ -1,13 +1,10 @@
 .single-post {
-  color: #999;
-
 
   &-text {
     flex: 2;
 
     *:not(h2) {
-      font-size: 15px;
-      line-height: 23px;
+      @extend %text-comum;
     }
     .post-title { 
       margin-top: 0;
