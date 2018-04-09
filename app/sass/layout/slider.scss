@@ -1,6 +1,7 @@
 .slider {
   @extend %gradient;
   color: #fff;
+  font-family: 'Quicksand', sans-serif;
 
   .container {
     @extend %flex;
