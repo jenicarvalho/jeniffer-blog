@@ -8,7 +8,9 @@
     padding: 10px 30px;  
     transition: all 0.35s ease-out;
     position: relative;
-    background-color: #faf9ff;
+    background-color: $gray-color;
     @include hover-gradient(20px);
+    
+    &:hover {box-shadow: 0 35px 60px rgba(0,0,0,0.2) !important }
   }
 }
