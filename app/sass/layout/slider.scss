@@ -1,5 +1,7 @@
 .slider {
   @extend %gradient;
+  top: 5em;
+  position: relative;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
 
