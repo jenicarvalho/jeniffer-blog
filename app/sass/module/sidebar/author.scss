@@ -1,23 +1,31 @@
 .author-box {
     text-align: center;
 
+  .author-image img {
+    width: 140px;
+  }
+
   .author-description {
     color: #999;
     font-size: 15px;
     line-height: 23px;
   }
 
+  .title-sidebar { letter-spacing: 1px }
+
   .author-links {
     display: flex;
-    margin: 30px 0;
+    margin-top: 30px;
 
     .btn {
       position: relative;
       padding: 11px 30px;
-      background-color: #faf9ff;
+      background-color: $gray-color;
       i { padding-right: 15px }
-      &:first-child { margin-right: 10px }
       @include hover-gradient(20px);
+
+      &:first-child { margin-right: 10px }
+      &:hover {box-shadow: 0 35px 60px rgba(0,0,0,0.2) !important }
     }
     
   }
