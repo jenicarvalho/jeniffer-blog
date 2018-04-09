@@ -1,0 +1,23 @@
+.footer {
+  @extend %text-comum;
+  padding-bottom: 80px;
+    
+  .container {    
+    @extend %flex;
+  }
+
+  .footer-about,
+  .footer-tags {
+    flex: 2;
+    padding: 0 70px 0 5px;
+  }
+
+  .footer-social {
+    flex: 1;
+  }
+
+  .footer-title {    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+}
