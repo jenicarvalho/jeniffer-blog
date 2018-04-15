@@ -3,7 +3,7 @@
   &-text {
     flex: 2;
 
-    *:not(h2) {
+    div, p, span, strong, i, b {
       @extend %text-comum;
     }
     .post-title { 
