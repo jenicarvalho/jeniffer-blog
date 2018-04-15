@@ -1,0 +1,23 @@
+.post-image {
+  overflow: hidden;
+}
+
+.list-single {
+  .post-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .single-post-content {
+    display: block;
+    box-shadow: none !important;
+    padding-left: 0;
+  }
+
+  .single-post-meta { 
+    float: right;     
+    margin: 15px 0 15px 30px;
+    width: 30%;
+  }
+}
