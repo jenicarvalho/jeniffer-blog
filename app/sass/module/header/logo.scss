@@ -3,11 +3,12 @@
     flex: 1;
 
     svg {
-      width: 80px;
+      width: 150px;
 
       .path {
         stroke-dasharray: 500;
         stroke-dashoffset: 100;
+        stroke-width: 10;
         animation: dash 4s linear 2s infinite normal;
         stroke: #f41766;
       }
