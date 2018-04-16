@@ -1,0 +1,9 @@
+.contact {
+  @extend %gradient;
+  padding: 150px 0;
+  font-family: "Quicksand";
+
+  &.principal {
+    margin: 0;
+  }
+}
