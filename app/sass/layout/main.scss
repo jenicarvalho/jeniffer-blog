@@ -5,3 +5,8 @@
     @extend %flex;
   }
 }
+
+.hero-image {
+  overflow: hidden;
+  height: 500px;
+}
